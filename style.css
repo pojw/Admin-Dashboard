@@ -80,15 +80,26 @@ body{color:white}
     grid-column: 2/3;
     display:grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2,minmax(100px,400px));
+    grid-template-rows: repeat(2,minmax(100px,300px));
 }
+.info{
+    display:grid;
+    
+}
+.Achivements{display:grid;
+    /* gap:15px} */
 
-.card{
-    background: purple;
+}
+    .card{
+    display:grid;
+    background: beige;
+   grid-template-rows:15%;
+ 
  
 
 }
 
 .title{
-    font-size:32px
+    font-size:32px;
+    
 }
