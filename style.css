@@ -1,7 +1,7 @@
-
+body{color:white}
 
 .container{
-    background:green;
+    background:darkblue;
     display:grid;
     grid-template-columns:1fr 6fr;
     grid-template-rows: 1fr 9fr;
@@ -14,19 +14,32 @@
     display:grid;
     grid-template-rows: 80px repeat(8,60px);
     gap:10px;
+   background:rgba(12, 161, 211, 0.733);
+   grid-template-columns: 10px 1fr;
+   font-size:30px
+   
 
 }
+
 .picture{
     display:grid;
     grid-template-columns: 20px 1fr;
-    gap:10px;
-}
+    gap:25px;
+    grid-column:2/3;
+
+    
+    }
+    
+
+
 
 .dashboard{
     display:grid;
     grid-template-columns: 20px 1fr;
     gap:35px;
     font-size:30px;
+    grid-column: 2;
+    margin-top:10px
 
     
 }
@@ -47,8 +60,15 @@
 .header-top{
     display: grid;
     grid-template-columns:repeat(3,1fr);
-}
 
+}
+.profile{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.name{
+    grid-column: 2;
+}
 .links{
     display:grid;
     grid-template-columns: repeat(3,1fr);
@@ -67,4 +87,8 @@
     background: purple;
  
 
+}
+
+.title{
+    font-size:32px
 }
